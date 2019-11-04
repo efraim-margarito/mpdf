@@ -8,6 +8,8 @@ use Mpdf\Mpdf;
 class Table extends Tag
 {
 
+	private test_efraim = 0;
+	
 	public function open($attr, &$ahtml, &$ihtml)
 	{
 		$this->mpdf->tdbegin = false;
